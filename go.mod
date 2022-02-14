@@ -1,4 +1,4 @@
-module github.com/Keshav-Agrawal/seperate
+module github.com/vatsal278/seperate
 
 go 1.17
 
