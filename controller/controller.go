@@ -71,7 +71,7 @@ func UpdateEmployee(w http.ResponseWriter, r *http.Request) {
 			x := employee.Employee_id
 			var updatedemployee model.Employee
 			json.NewDecoder(r.Body).Decode(&updatedemployee)
-			if updatedemployee.Name == "" || updatedemployee.Position == "" || updatedemployee.Salary == 0 {
+			if updatedemployee.Name == "" {
 				json.NewEncoder(w).Encode("No field can be nil except Employee id")
 				return
 			}
