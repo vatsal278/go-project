@@ -1,7 +1,7 @@
 package router
 
 import (
-	"github.com/vatsal278/go-project/controler"
+	"github.com/vatsal278/go-project/controller"
 	"github.com/gorilla/mux"
 )
 
