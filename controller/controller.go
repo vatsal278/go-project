@@ -10,7 +10,7 @@ import (
 )
 
 func StartPage(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("<h1>Welcome to API with all CRUD operations (Employee system)</h1>"))
+	w.Write([]byte("<h1>Welcome to perennial systems</h1>"))
 }
 
 func DisplayEmployee(w http.ResponseWriter, r *http.Request) {
