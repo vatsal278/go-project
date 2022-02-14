@@ -1,4 +1,4 @@
-module github.com/vatsal278/seperate
+module github.com/vatsal278/go-project/seperate
 
 go 1.17
 
